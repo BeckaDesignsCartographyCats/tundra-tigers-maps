@@ -1,0 +1,184 @@
+{
+  "id": "tundra-tigers-maps",
+  "title": "Tundra Tigers Maps",
+  "version": "1.0.0",
+  "url": "https://www.patreon.com/cw/BeckaDesignsCartographyCats",
+  "manifest": "https://github.com/BeckaDesignsCartographyCats/tundra-tigers-maps/releases/latest/download/module.json",
+  "download": "https://github.com/BeckaDesignsCartographyCats/tundra-tigers-maps/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p style=\"text-align:justify\">This module contains all maps, creatures, items and plot hooks for Becka_Tigress's Tundra Tigers’ Patreon tier. This includes special maps not useable by the Lush Cave Lion's tier each month including the tutorial map that you can watch The Cartographer herself make! Also, find a few special maps used by the Cartographer herself for her own personal campaign all VTT ready to use! The sound modules used in all the maps have been added as a recommendation for those wanting a bit more immersion! Feel free to not use them, it will not hurt the map experience!</p>",
+  "authors": [
+    {
+      "name": "Becka_Tigeress",
+      "url": "https://beccaschneller.wixsite.com/tigeressdesigns",
+      "discord": "beckatigeress4184",
+      "flags": {}
+    },
+    {
+      "name": "Garrus_2",
+      "discord": "garrus_2",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "maps",
+      "label": "Maps",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tutorial",
+      "label": "Tutorial  maps",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/tutorial",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "extra-maps",
+      "label": "Becka Campaign Maps",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/extra-maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "plothooks",
+      "label": "Quests,Towns, and Monsters",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/plothooks",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Special Items",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abilities",
+      "label": "Creature Abilities",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Tundra Tigers",
+      "sorting": "m",
+      "color": "#ff6900",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Tundra Tigers Maps",
+          "sorting": "a",
+          "color": "#ffa756",
+          "packs": [
+            "maps",
+            "tutorial",
+            "extra-maps"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Monthly Creatures",
+          "sorting": "a",
+          "color": "#ffa756",
+          "packs": [
+            "creatures",
+            "abilities"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Monthly Story Starters",
+          "sorting": "a",
+          "color": "#ffa756",
+          "packs": [
+            "plothooks"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Special Items",
+          "sorting": "a",
+          "color": "#ffa756",
+          "packs": [
+            "items"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "gAudioBundle-1",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-2",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-3",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-4",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}

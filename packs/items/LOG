@@ -1,0 +1,5 @@
+2026/04/10-06:58:55.396 c9c Recovering log #179
+2026/04/10-06:58:55.396 c9c Level-0 table #181: started
+2026/04/10-06:58:55.401 c9c Level-0 table #181: 1715 bytes OK
+2026/04/10-06:58:55.415 c9c Delete type=0 #179
+2026/04/10-06:58:55.415 c9c Delete type=3 #178
